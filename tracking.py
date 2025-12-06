@@ -48,7 +48,7 @@ while True:
                             cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
 
     # Show results
-    cv2.imshow("Arvyax Phase 3: Tracking", frame)
+    cv2.imshow("Tracking", frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 # Cleanup
